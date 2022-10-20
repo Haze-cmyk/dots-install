@@ -1,6 +1,6 @@
 !/bin/sh
 
-sudo pacman -S git base-devel libx11 libxft terminus-font xorg xorg-server xorg-xinit
+sudo pacman -Syu git base-devel libx11 libxft terminus-font xorg xorg-server xorg-xinit
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
